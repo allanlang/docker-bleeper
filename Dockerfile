@@ -1,3 +1,3 @@
-FROM alpine:latest
+FROM ubuntu:latest
 COPY bleeper.sh bleeper.sh
-ENTRYPOINT ["/bin/bash", "-c", "bleeper.sh"]
+ENTRYPOINT ["./bleeper.sh"]
